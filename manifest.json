@@ -1,16 +1,23 @@
 {
   "kind": "column",
-  "name": "Reverse array",
-  "description": "Reverses an array",
-  "author": "Mark Probst <mark@glideapps.com>",
+  "name": "Split input text fields into an array",
+  "description": "By Thinh Dinh <thinh@lowcode.agency>",
+  "author": "Thinh Dinh <thinh@lowcode.agency",
   "params": [
     {
-      "name": "array",
-      "displayName": "Array",
-      "type": {
-        "kind": "array",
-        "items": "primitive"
-      }
+      "name": "text1",
+      "displayName": "Text 1",
+      "type": "primitive"
+    },
+    {
+      "name": "text2",
+      "displayName": "Text 2",
+      "type": "primitive"
+    },
+    {
+      "name": "text3",
+      "displayName": "Text 3",
+      "type": "primitive"
     }
   ],
   "result": {
