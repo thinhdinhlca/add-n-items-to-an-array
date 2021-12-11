@@ -1,0 +1,24 @@
+{
+  "kind": "column",
+  "name": "Reverse array",
+  "description": "Reverses an array",
+  "author": "Mark Probst <mark@glideapps.com>",
+  "params": [
+    {
+      "name": "array",
+      "displayName": "Array",
+      "type": {
+        "kind": "array",
+        "items": "primitive"
+      }
+    }
+  ],
+  "result": {
+    "name": "array",
+    "displayName": "Array",
+    "type": {
+      "kind": "array",
+      "items": "primitive"
+    }
+  }
+}
