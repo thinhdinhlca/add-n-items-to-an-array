@@ -6,5 +6,5 @@ window.function = function (text1, text2, text3) {
   
   const arr = [];
   arr.push(text1,text2,text3);
-  return [...arr.value];
+  return arr;
 }
