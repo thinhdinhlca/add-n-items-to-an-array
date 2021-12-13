@@ -8,5 +8,5 @@ window.function = function (input_arr,item,num_add) {
   
   //dup_arr = dup_arr.concat(input_arr);
   
-  return input_arr;
+  return [...input_arr.value];
 }
