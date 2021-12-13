@@ -1,23 +1,25 @@
 {
   "kind": "column",
-  "name": "Split input text fields into an array",
+  "name": "Add n duplicated items to an array",
   "description": "By Thinh Dinh <thinh@lowcode.agency>",
   "author": "Thinh Dinh <thinh@lowcode.agency",
   "params": [
     {
-      "name": "text1",
-      "displayName": "Text 1",
+      "name": "input_arr",
+      "displayName": "Input array",
+      "type": {
+      "kind": "array",
+      "items": "primitive"
+    },
+    {
+      "name": "item",
+      "displayName": "Item to add",
       "type": "primitive"
     },
     {
-      "name": "text2",
-      "displayName": "Text 2",
-      "type": "primitive"
-    },
-    {
-      "name": "text3",
-      "displayName": "Text 3",
-      "type": "primitive"
+      "name": "num_add",
+      "displayName": "Number of items to add",
+      "type": "number"
     }
   ],
   "result": {
