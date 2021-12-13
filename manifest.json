@@ -10,6 +10,7 @@
       "type": {
       "kind": "array",
       "items": "primitive"
+      }
     },
     {
       "name": "item",
