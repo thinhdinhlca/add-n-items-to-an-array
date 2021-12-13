@@ -8,7 +8,7 @@ window.function = function (input_arr,item,num_add) {
   
   const res_arr = [];
   
-  res_arr = input_arr.concat(dup_arr);
+  //res_arr = input_arr.concat(dup_arr);
   
-  return res_arr;
+  return dup_arr;
 }
