@@ -1,10 +1,14 @@
-window.function = function (text1, text2, text3) {
+window.function = function (input_arr,item,num_add) {
   
-  text1 = text1.value ?? "";
-  text2 = text2.value ?? "";
-  text3 = text3.value ?? "";
+  if (input_arr.value === undefined) return undefined;
+  item = item.value ?? "";
+  num_add = num_add.value ?? "1";
   
-  const arr = [];
-  arr.push(text1,text2,text3);
-  return arr;
+  const dup_arr = Array(num_add).fill(item);
+  
+  const res_arr = [];
+  
+  res_arr = input_arr.concat(dup_arr);
+  
+  return res_arr;
 }
