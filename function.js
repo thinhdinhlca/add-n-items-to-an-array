@@ -6,7 +6,9 @@ window.function = function (input_arr,item,num_add) {
   
   var dup_arr = Array(num_add).fill(item);
   
-  dup_arr = dup_arr.concat(input_arr);
+  var new_arr = input_arr.value;
+  
+  dup_arr = dup_arr.concat(new_arr);
   
   return [...dup_arr.value];
 }
