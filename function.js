@@ -10,5 +10,5 @@ window.function = function (input_arr,item,num_add) {
   
   dup_arr = dup_arr.concat(new_arr);
   
-  return [...dup_arr.value];
+  return dup_arr;
 }
