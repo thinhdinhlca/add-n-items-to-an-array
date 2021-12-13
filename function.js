@@ -5,7 +5,7 @@ window.function = function (input_arr,item,num_add) {
   num_add = num_add.value ?? "0";
   
   if (num_add == 0) {
-    return [...arr.value];
+    return [...input_arr.value];
   }
   
   else {
