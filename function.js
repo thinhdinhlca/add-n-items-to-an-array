@@ -14,7 +14,7 @@ window.function = function (input_arr,item,num_add) {
   
   var new_arr = input_arr.value;
   
-  dup_arr = dup_arr.concat(new_arr);
+  dup_arr = new_arr.concat(dup_arr);
   
   return dup_arr;
   }
