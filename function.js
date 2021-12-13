@@ -4,7 +4,7 @@ window.function = function (input_arr,item,num_add) {
   item = item.value ?? "";
   num_add = num_add.value ?? "1";
   
-  const dup_arr = Array(num_add).fill(item);
+  var dup_arr = Array(num_add).fill(item);
   
   dup_arr = dup_arr.concat(input_arr);
   
